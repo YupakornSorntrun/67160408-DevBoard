@@ -46,6 +46,7 @@ function App() {
         }}
       >
         {/* คอลัมน์ซ้าย: โพสต์ */}
+
         <div>
           <PostList posts={POSTS} />
         </div>
