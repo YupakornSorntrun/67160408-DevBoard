@@ -1,8 +1,10 @@
 import PostCard from "./PostCard";
+import PostCount from "./PostCount";
 
 function PostList({ posts }) {
   return (
     <div>
+      <PostCount count={posts.length} />
       <h2
         style={{
           color: "#2d3748",

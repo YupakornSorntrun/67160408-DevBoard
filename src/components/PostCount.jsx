@@ -1,0 +1,9 @@
+function PostCount({ count }) {
+  return (
+    <div style={{ color: "#718096", fontSize: "0.85rem" }}>
+      โพสต์ทั้งหมด: {count} รายการ
+    </div>
+  );
+}
+
+export default PostCount;
