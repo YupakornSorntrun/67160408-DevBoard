@@ -4,7 +4,7 @@ import PostCount from "./PostCount";
 function PostList({ posts }) {
   return (
     <div>
-      <PostCount count={posts.length} />
+      <PostCount posts={posts} />
       <h2
         style={{
           color: "#2d3748",
