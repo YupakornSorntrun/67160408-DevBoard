@@ -88,13 +88,7 @@ function PostList({ favorites, onToggleFavorite }) {
 
       {/* แสดงรายการโพสต์ */}
       {filtered.map((post) => (
-        <PostCard
-          key={post.id}
-          post={post}
-          body={post.body}
-          isFavorite={favorites.includes(post.id)}
-          onToggleFavorite={() => onToggleFavorite(post.id)}
-        />
+        <PostCard key={post.id} post={post} body={post.body} />
       ))}
     </div>
   );
